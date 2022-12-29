@@ -12,10 +12,11 @@
 # Exercicios
 
 soma = 0
-qtd = 0
-for i in range(1,101):
-    if (i % 2 == 0):
-        soma += i
+qtd = 1
+for cont in range(0, 6, 1):
+    print('Valor de i: {}.'.format(cont))
+    if (cont % 2 == 0):
+        soma += cont
         qtd += 1
 media = soma / qtd
 print('A média dos pares de 1 até 100 é: {}.'.format(media))
